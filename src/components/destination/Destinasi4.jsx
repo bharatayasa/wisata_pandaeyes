@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import kaledupa2 from '../../assets/wisata/Pulau Kaledupa/Wakatobi Dive Resort.jpeg'
 import kaledupa3 from '../../assets/wisata/Pulau Kaledupa/wakatobi island, southeast sulawesi.jpeg'
 import kaledupa4 from '../../assets/wisata/Pulau Kaledupa/Wakatobi, Indonesia.jpeg'
-import Deskripsi3 from './Deskripsi/Deskripsi3';
+import Deskripsi4 from './Deskripsi/Deskripsi4';
 
-function Destinasi3() {
+function Destinasi4() {
     const navigate = useNavigate()
     return (
         <div>
@@ -17,8 +17,8 @@ function Destinasi3() {
                             <div className='mt-24 items-center'>
                                 <div className='px-0 lg:px-0'>
                                     <h1 className="text-3xl lg:text-5xl font-bold mb-4">
-                                    Weekuri Lake, West Sumba, East Nusa Tenggara                                    </h1>
-                                    <p>Discover the serene turquoise-blue waters of Weekuri Lake, surrounded by lush green hills in West Sumba, East Nusa Tenggara. An ideal spot for relaxation, swimming, and appreciating natural serenity.</p>
+                                    Madakaripura Waterfall, Probolinggo, East Java                                   </h1>
+                                    <p>Experience the enchanting Madakaripura Waterfall, the second-highest in Indonesia, within the Bromo Tengger Semeru National Park, East Java. An immersive adventure with dramatic natural scenery and a mystical atmosphere.</p>
                                 </div>
                                 <div className='mt-5'>
                                     <button className='btn btn-primary' onClick={() => navigate('/')}>
@@ -49,9 +49,9 @@ function Destinasi3() {
                     </section>
                 </div>
             </div>
-            <Deskripsi3 />
+            <Deskripsi4 />
         </div>
     )
 }
 
-export default Destinasi3
+export default Destinasi4

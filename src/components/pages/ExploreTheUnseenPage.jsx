@@ -6,7 +6,13 @@ import 'swiper/css/pagination';
 import { EffectCoverflow } from 'swiper/modules';
 import { useNavigate } from "react-router-dom";
 import kaledupa from '../../assets/wisata/Pulau Kaledupa/Wakatobi Dive Resort.jpeg'
-import northMaluku from '../../assets/wisata/Air Terjun Madakaripura/Air terjun Madakaripura adalah suatu air terjun yang terletak di Kecamatan Lumbang, Probolinggo.jpeg'
+import northMaluku from '../../assets/wisata/Teluk Jailolo/jailolo1.jpeg'
+import weekuri from '../../assets/wisata/Danau Weekuri/Weekuri2.jpeg'
+import madakaripura from '../../assets/wisata/Air Terjun Madakaripura/Madakaripura 3.jpeg'
+import naga from '../../assets/wisata/Kampung Naga/naga1.jpeg'
+import gong from '../../assets/wisata/Gua Gong/GuaGong1.jpeg'
+import bama from '../../assets/wisata/Pantai Babe/Pantai Bama (1).jpeg'
+import pariaman from '../../assets/wisata/Pantai Bama, Hutan Mangrov/Mangrove1.jpeg'
 
 function ExploreTheUnseenPage() {
     const navigate = useNavigate()
@@ -80,11 +86,107 @@ function ExploreTheUnseenPage() {
                                         <img src={northMaluku}/>
                                         <div className='flex justify-center'>
                                             <div className='font-semibold text-2xl mb-3 mt-2'>
-                                                <h1>judul</h1>
+                                                <h1>Jailolo</h1>
                                             </div>
                                         </div>
                                         <div className='flex justify-center'>
                                             <button className='btn btn-primary' onClick={() => navigate('/destinasi2')}>
+                                                Explore
+                                            </button>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div>
+                                        <img src={weekuri}/>
+                                        <div className='flex justify-center'>
+                                            <div className='font-semibold text-2xl mb-3 mt-2'>
+                                                <h1>Weekuri</h1>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <button className='btn btn-primary' onClick={() => navigate('/destinasi3')}>
+                                                Explore
+                                            </button>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                
+                                <SwiperSlide>
+                                    <div>
+                                        <img src={madakaripura}/>
+                                        <div className='flex justify-center'>
+                                            <div className='font-semibold text-2xl mb-3 mt-2'>
+                                                <h1>Madakaripura</h1>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <button className='btn btn-primary' onClick={() => navigate('/destinasi4')}>
+                                                Explore
+                                            </button>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div>
+                                        <img src={naga}/>
+                                        <div className='flex justify-center'>
+                                            <div className='font-semibold text-2xl mb-3 mt-2'>
+                                                <h1>Kampung Naga</h1>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <button className='btn btn-primary' onClick={() => navigate('/destinasi5')}>
+                                                Explore
+                                            </button>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div>
+                                        <img src={gong}/>
+                                        <div className='flex justify-center'>
+                                            <div className='font-semibold text-2xl mb-3 mt-2'>
+                                                <h1>Gong Cave</h1>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <button className='btn btn-primary' onClick={() => navigate('/destinasi6')}>
+                                                Explore
+                                            </button>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div>
+                                        <img src={bama}/>
+                                        <div className='flex justify-center'>
+                                            <div className='font-semibold text-2xl mb-3 mt-2'>
+                                                <h1>Bama Beach</h1>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <button className='btn btn-primary' onClick={() => navigate('/destinasi7')}>
+                                                Explore
+                                            </button>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div>
+                                        <img src={pariaman}/>
+                                        <div className='flex justify-center'>
+                                            <div className='font-semibold text-2xl mb-3 mt-2'>
+                                                <h1>Pariaman Mangrove Forest</h1>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <button className='btn btn-primary' onClick={() => navigate('/destinasi8')}>
                                                 Explore
                                             </button>
                                         </div>

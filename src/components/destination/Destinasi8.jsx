@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import kaledupa2 from '../../assets/wisata/Pulau Kaledupa/Wakatobi Dive Resort.jpeg'
 import kaledupa3 from '../../assets/wisata/Pulau Kaledupa/wakatobi island, southeast sulawesi.jpeg'
 import kaledupa4 from '../../assets/wisata/Pulau Kaledupa/Wakatobi, Indonesia.jpeg'
-import Deskripsi3 from './Deskripsi/Deskripsi3';
+import Deskripsi8 from './Deskripsi/Deskripsi8';
 
-function Destinasi3() {
+function Destinasi8() {
     const navigate = useNavigate()
     return (
         <div>
@@ -17,8 +17,8 @@ function Destinasi3() {
                             <div className='mt-24 items-center'>
                                 <div className='px-0 lg:px-0'>
                                     <h1 className="text-3xl lg:text-5xl font-bold mb-4">
-                                    Weekuri Lake, West Sumba, East Nusa Tenggara                                    </h1>
-                                    <p>Discover the serene turquoise-blue waters of Weekuri Lake, surrounded by lush green hills in West Sumba, East Nusa Tenggara. An ideal spot for relaxation, swimming, and appreciating natural serenity.</p>
+                                    Pariaman Mangrove Forest, West Sumatra                                   </h1>
+                                    <p>Discover the crucial ecosystem of Pariaman Mangrove Forest in West Sumatra. Offering educational insights into preserving marine ecosystems. Experience a unique atmosphere away from typical tourist destinations.</p>
                                 </div>
                                 <div className='mt-5'>
                                     <button className='btn btn-primary' onClick={() => navigate('/')}>
@@ -49,9 +49,9 @@ function Destinasi3() {
                     </section>
                 </div>
             </div>
-            <Deskripsi3 />
+            <Deskripsi8 />
         </div>
     )
 }
 
-export default Destinasi3
+export default Destinasi8
