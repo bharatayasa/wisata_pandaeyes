@@ -9,6 +9,13 @@ import Destinasi5 from "./destination/Destinasi5";
 import Destinasi6 from "./destination/Destinasi6";
 import Destinasi7 from "./destination/Destinasi7";
 import Destinasi8 from "./destination/Destinasi8";
+import Destinasi3 from "./destination/Destinasi3";
+import Destinasi4 from "./destination/Destinasi4";
+import Destinasi5 from "./destination/Destinasi5";
+import Destinasi6 from "./destination/Destinasi6";
+import Destinasi7 from "./destination/Destinasi7";
+import Destinasi8 from "./destination/Destinasi8";
+
 
 function Router() {
     return (

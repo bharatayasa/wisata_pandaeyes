@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Deskripsi2() {
     return (
         <div>
